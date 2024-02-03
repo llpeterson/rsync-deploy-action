@@ -23,7 +23,7 @@ chmod 600 $SSH_PRIVATE_KEY_FILE
 
 SSH_COMMAND="ssh -p $3 -i $SSH_PRIVATE_KEY_FILE $7 -o StrictHostKeyChecking=no"
 
-echo $SSH_COMMAND
+wc $SSH_PRIVATE_KEY_FILE
 
 echo =========================================================================
 
